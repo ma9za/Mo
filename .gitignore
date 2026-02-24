@@ -1,0 +1,41 @@
+# Environment variables
+private/.env
+
+# Database
+private/database.sqlite
+private/database.sqlite-shm
+private/database.sqlite-wal
+
+# Logs
+private/logs/*
+!private/logs/.gitkeep
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+
+# Dependencies
+vendor/
+node_modules/
+composer.lock
+package-lock.json
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+*.temp
